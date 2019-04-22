@@ -1,0 +1,131 @@
+{
+    "count": 3,
+    "recipes": [
+        {
+            "name": "Risotto aux asperges",
+            "ingredients": [
+                {
+                    "_id": "5cbc4c576b63bce5a555565f",
+                    "quantity": "1",
+                    "name": "Riz à risotto"
+                },
+                {
+                    "_id": "5cbc4c576b63bce5a555565e",
+                    "quantity": "1",
+                    "name": "Carré de bouillon de légume"
+                },
+                {
+                    "_id": "5cbc4c576b63bce5a555565d",
+                    "quantity": "1",
+                    "name": "Oignon blanc"
+                },
+                {
+                    "_id": "5cbc4c576b63bce5a555565c",
+                    "quantity": "1",
+                    "name": "Vin blanc"
+                },
+                {
+                    "_id": "5cbc4c576b63bce5a555565b",
+                    "quantity": "8",
+                    "name": "Asperges vertes"
+                },
+                {
+                    "_id": "5cbc4c576b63bce5a555565a",
+                    "quantity": "1",
+                    "name": "Parmesan"
+                }
+            ],
+            "instructions": "...",
+            "persons": 4,
+            "_id": "5cbc4c576b63bce5a5555659",
+            "request": {
+                "type": "GET",
+                "url": "http://localhost:3001/api/recipes/5cbc4c576b63bce5a5555659"
+            }
+        },
+        {
+            "name": "Gratin de farfalle au bleu d'auvergne",
+            "ingredients": [
+                {
+                    "_id": "5cbc6d4d3703d2e6b432af03",
+                    "quantity": "500",
+                    "name": "grammes de farfalle"
+                },
+                {
+                    "_id": "5cbc6d4d3703d2e6b432af02",
+                    "quantity": "150",
+                    "name": "grammes de Bleu d'auvergne"
+                },
+                {
+                    "_id": "5cbc6d4d3703d2e6b432af01",
+                    "quantity": "250",
+                    "name": "grammes de Mascarpone"
+                },
+                {
+                    "_id": "5cbc6d4d3703d2e6b432af00",
+                    "quantity": "200",
+                    "name": "grammes d'Epinards"
+                },
+                {
+                    "_id": "5cbc6d4d3703d2e6b432aeff",
+                    "quantity": "8",
+                    "name": "Asperges vertes"
+                },
+                {
+                    "_id": "5cbc6d4d3703d2e6b432aefe",
+                    "quantity": "1",
+                    "name": "Parmesan"
+                }
+            ],
+            "instructions": "...",
+            "persons": 4,
+            "_id": "5cbc6d4d3703d2e6b432aefd",
+            "request": {
+                "type": "GET",
+                "url": "http://localhost:3001/api/recipes/5cbc6d4d3703d2e6b432aefd"
+            }
+        },
+        {
+            "name": "Gratin de farfalle au bleu d'auvergne",
+            "ingredients": [
+                {
+                    "_id": "5cbde5de18023c087c12d5f2",
+                    "quantity": "500",
+                    "name": "grammes de farfalle"
+                },
+                {
+                    "_id": "5cbde5de18023c087c12d5f1",
+                    "quantity": "150",
+                    "name": "grammes de Bleu d'auvergne"
+                },
+                {
+                    "_id": "5cbde5de18023c087c12d5f0",
+                    "quantity": "250",
+                    "name": "grammes de Mascarpone"
+                },
+                {
+                    "_id": "5cbde5de18023c087c12d5ef",
+                    "quantity": "200",
+                    "name": "grammes d'Epinards"
+                },
+                {
+                    "_id": "5cbde5de18023c087c12d5ee",
+                    "quantity": "8",
+                    "name": "Asperges vertes"
+                },
+                {
+                    "_id": "5cbde5de18023c087c12d5ed",
+                    "quantity": "1",
+                    "name": "Parmesan"
+                }
+            ],
+            "instructions": "...",
+            "persons": 4,
+            "_id": "5cbde5de18023c087c12d5ec",
+            "request": {
+                "type": "GET",
+                "url": "http://localhost:3001/api/recipes/5cbde5de18023c087c12d5ec"
+            }
+        }
+    ]
+}

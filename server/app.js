@@ -11,7 +11,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users'); 
 const recipeRouter = require('./api/routes/recipes');
 const ingredientRouter = require('./api/routes/ingredients');
-const orderRouter = require('./api/routes/orders');
+// const orderRouter = require('./api/routes/orders');
 
 // database connection
 mongoose.connect('mongodb://localhost:27017/nabuchef', { useNewUrlParser: true });
@@ -27,12 +27,25 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header(
+  'Access-Control-Allow-Headers',
+  'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+  );
+  if(req.method === "OPTIONS") {
+      res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET');
+      return res.status(200).json({});
+  }
+  next();
+})
+
 // routing
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/api/recipes', recipeRouter);
 app.use('/api/ingredients', ingredientRouter);
-app.use('/api/orders', orderRouter);
+// app.use('/api/orders', orderRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
