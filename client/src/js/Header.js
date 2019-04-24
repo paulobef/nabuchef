@@ -9,7 +9,7 @@ class Header extends React.Component {
         return (
             <header className="App-header navbar">
                 <button className="openbtn" onClick={this.props.openNav}>&#9776;</button>
-                <input type="text" className="search" name="search" placeholder="Tarte aux framboises..."/>
+                
             </header>
             )
     }

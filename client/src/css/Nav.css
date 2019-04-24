@@ -1,4 +1,6 @@
 /* The sidebar menu */
+
+
 .sidebar {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -6,10 +8,17 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: rgb(255, 209, 209); /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: white;
+  border-bottom-width: 0px;
+  border-color: #BBBBBB;
+  border-left-width: 0px;
+  border-right-width: 0.5px;
+  border-style: solid;
+  border-top-width: 0px;
+  overflow: hidden;
 }
 
 /* The sidebar links */
@@ -46,21 +55,18 @@
   width: 0px;
 }
 
-.openNavMain {
-  margin-left: 250px;
-}
+
 
 /* The button used to open the sidebar */
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #ff3838;
-  color: white;
+  color: rgb(66, 66, 66);
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  color: rgb(31, 31, 31);
 }
 
