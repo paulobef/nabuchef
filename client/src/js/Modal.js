@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/App.css';
 import '../css/Modal.css';
-
+import Form from './Form';
 
 class Modal extends React.Component {
 
@@ -16,7 +16,7 @@ class Modal extends React.Component {
       <div className={"modal " + visible}>
           <div className="modal-content">
               <span onClick={this.props.hide} className="close">&times;</span>
-              <p>Some text in the Modal..</p>
+              <Form />
           </div>
       </div>
       )

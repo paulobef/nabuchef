@@ -19,7 +19,7 @@ class RecipesView extends React.Component {
         const url = 'http://localhost:3001/api/recipes'
         const fetchData = { 
             method: 'GET', 
-            headers: new Headers(),
+            headers: new Headers()
         }
 
         fetch(url, fetchData)
